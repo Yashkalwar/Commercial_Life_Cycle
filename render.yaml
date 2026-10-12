@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: commercial-lifecycle-atlas
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
